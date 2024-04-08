@@ -1,0 +1,16 @@
+---
+httpd_port: 80
+httpd_servername : wordpress.abinsunny.online
+httpd_docroot: /var/www/html/app
+httpd_owner : apache
+httpd_group: apache
+packages:
+  - httpd
+  - php-fpm
+  - php-mysqlnd
+
+mariadb_root_password: "Abin!23456"
+mariadb_wp_user: "wp_user"
+mariadb_wp_password: "Abin!234"
+mariadb_wp_db: "wp_db"
+wordpress_dwnld_url: "https://wordpress.org/wordpress-6.0.3.tar.gz"
